@@ -31,7 +31,7 @@ Blue Air is air quality checker app which is implemented in kotlin and Jetpack C
 
 ## Key Settings
 
-* To get your keys, please go on the  __[Air Quality Open Data Platform register page.](http://aqicn.org/data-platform/token/#/)__
+* To get your keys, please go on the  __[Air Quality Open Data Platform register page.](http://aqicn.org/data-platform/token/#/)__ You need to add your api_key/token to Constants.kt file
 * set your google map api key to AndroidManifest.xml
 
 ## Find this repository useful? :heart:
