@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">Blue Air</string>
+    <string name="tag">Breathe cleaner, healthier air</string>
+    <string name="breath_better_everywhere">Breathe better everywhere</string>
+    <string name="breath_better_desc">Understand the air around you, wherever you go with the largest coverage of trusted data.</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="retry">Retry</string>
+    <string name="internet_error">Internet Error</string>
+    <string name="please_check_your_internet_connection">Please check your internet connection.</string>
+    <string name="okay">Okay</string>
+    <string name="server_error">Server Error</string>
+    <string name="something_went_wrong_please_try_again_later">Something went wrong. Please try again later.</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search">Search by station</string>
+    <string name="title_activity_air_detail">AirDetailActivity</string>
+    <string name="title_activity_air_guide">AirGuideActivity</string>
+    <string name="air_guide_desc">
+        AQI, or Air Quality index, is a system for reporting the severity of air quality levels in relatable terms to the public.
+        The index ranges from 0 to 300+,where high index values indicate higher levels of air pollution and higher potential for adverse health effects.
+        Any value larger than 300, for example, is considered to be hazardous, while an AQI value of 0-50, on the other hand, represents good air quality.
+    </string>
+    <string name="aqi_level_good">0-50 Good</string>
+    <string name="aqi_level_moderate">51-100 Moderate</string>
+    <string name="aqi_level_unhealthy_for_sensitive_group">101-150 Unhealthy for Sensitive Groups</string>
+    <string name="aqi_leve_unhealthy">151-200 Unhealthy</string>
+    <string name="aqi_leve_very_unhealthy">201-300 Very Unhealthy</string>
+    <string name="aqi_leve_hazardous">300+ Hazardous</string>
+    <string name="aqi_level_good_desc">
+        Air quality is considered satisfactory, and air pollution poses little or no risk.
+    </string>
+    <string name="aqi_level_moderate_desc">
+        Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.
+    </string>
+    <string name="aqi_level_unhealthy_for_sensitive_group_desc">
+        Members of sensitive groups may experience health effects. The general public is not likely to be affected.
+    </string>
+    <string name="aqi_leve_unhealthy_desc">
+        Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.
+    </string>
+    <string name="aqi_leve_very_unhealthy_desc">
+        Health warnings of emergency conditions. The entire population is more likely to be affected.
+    </string>
+    <string name="aqi_leve_hazardous_desc">
+        Health alert: everyone may experience more serious health effects.
+    </string>
+    <string name="health_recommendation">Health Recommendations</string>
+    <string name="forecast">Weekly Forecast</string>
+    <string name="pollutant">Pollutant</string>
+    <string name="title_activity_pollutant_detail">PollutantDetailActivity</string>
+
+    <!-- PM2.5-->
+    <string name="pm_2_5">PM2.5</string>
+    <string name="pm_2_5_desc">
+        PM2.5 particles are floating particulate matter in the air measuring 2.5 micrometers in diameter or less.
+        PM2.5 is so small it can be absorbed into the bloodstream upon inhalation.
+        For this reason, it is typically the pollutant posing the greatest health treat.
+    </string>
+    <string name="pm_2_5_cause_1">
+        Combustion resulting from power plant.
+    </string>
+    <string name="pm_2_5_cause_2">
+        Smoke and soot from wildfires ans waste burning
+    </string>
+    <string name="pm_2_5_cause_3">
+        Vehicular emissions and combustion from motors
+    </string>
+    <string name="pm_2_5_cause_4">
+        Industrial processes involving chemical reactions between gases( sulfur dioxide, nitrogen, oxides, and volatile organic compounds)
+    </string>
+    <string name="pm_2_5_shor_term_1">
+        Irritation to eyes,throat and nose.
+    </string>
+    <string name="pm_2_5_shor_term_2">
+        Irregular heartbeats
+    </string>
+    <string name="pm_2_5_shor_term_3">
+        Asthma attacks
+    </string>
+    <string name="pm_2_5_shor_term_4">
+        Coughing, chest tightness, and shortness of breath
+    </string>
+    <string name="pm_2_5_long_term_1">
+        Respiratory illness such as bronchitis, asthma, emphysema
+    </string>
+    <string name="pm_2_5_long_term_2">
+        Lung tissue damage
+    </string>
+    <string name="pm_2_5_long_term_3">
+        Cancer
+    </string>
+    <string name="pm_2_5_long_term_4">
+        Heart attack
+    </string>
+    <string name="pm_2_5_long_term_5">
+       Stroke
+    </string>
+    <string name="pm_2_5_long_term_6">
+        Premature death
+    </string>
+
+
+    <!-- PM10-->
+    <string name="pm_10">PM10</string>
+    <string name="pm_10_desc">
+        PM10 is suspended particulate matter in the air with a diameter of 10 micrometers or less.
+        The difference between PM10 ans PM2.5 is simply a matter of size while PM2.5 is fine, PM10 is larger or coarser.
+    </string>
+    <string name="pm_10_cause_1">
+        Dust from construction,landfill and agriculture.
+    </string>
+    <string name="pm_10_cause_2">
+        Dust blow from open lands
+    </string>
+    <string name="pm_10_cause_3">
+        Smoke from wildfires and waste burning
+    </string>
+    <string name="pm_10_cause_4">
+        Chemical reaction from industry
+    </string>
+    <string name="pm_10_cause_5">
+        Motor vehicles
+    </string>
+    <string name="pm_10_shor_term_1">
+        Difficult breathing
+    </string>
+    <string name="pm_10_shor_term_2">
+        Chest pain
+    </string>
+    <string name="pm_10_shor_term_3">
+        General respiratory discomfort
+    </string>
+    <string name="pm_10_shor_term_4">
+        Sore throat
+    </string>
+    <string name="pm_10_shor_term_5">
+        Nasal Congestion
+    </string>
+    <string name="pm_10_long_term_1">
+        Lung tissue damage
+    </string>
+    <string name="pm_10_long_term_2">
+        Cancer
+    </string>
+    <string name="pm_10_long_term_3">
+        Asthma
+    </string>
+    <string name="pm_10_long_term_4">
+        Premature death
+    </string>
+
+
+    <!-- O3-->
+    <string name="o3">Ozone</string>
+    <string name="o3_desc">
+        Ozone(O3) is a gas formed by solar ultraviolet radiation (sunlight) and oxygen molecules.
+        Ozone is a naturally occurring compound in the atmosphere that plays a vital role in blocking out harmful UV rays from the sun -at the ground level, however, ozone is toxic.
+    </string>
+    <string name="o3_cause_1">
+        While other pollutant emitted directly into the air by various sources, ozone is simply created by sunlight acting on nitrogen oxides (NO) and volatile organic compounds (VOC) in the atmoshphere,
+        For this reason, Ozone is the most pervasive and most difficult to control of the six pollutants.
+    </string>
+    <string name="o3_shor_term_1">
+        Shortness of breath
+    </string>
+    <string name="o3_shor_term_2">
+        Pain during deep breaths
+    </string>
+    <string name="o3_shor_term_3">
+        Wheezing and coughing
+    </string>
+    <string name="o3_long_term_1">
+        Reduction in lung function
+    </string>
+    <string name="o3_long_term_2">
+        Inflammation of the lung lining
+    </string>
+    <string name="o3_long_term_3">
+        Respiratory discomfort
+    </string>
+
+    <!-- NO2-->
+    <string name="no2">Nitrogen dioxide</string>
+    <string name="no2_desc">
+        NO2 is a major contributor to the formation of smog and a precursor to many harmful secondary pollutants including ozone and particulate matter.
+    </string>
+    <string name="no2_cause_1">
+        Organic sources: lightning, plants, water and soil
+    </string>
+    <string name="no2_cause_2">
+        Inorganic sources: motor vehicle emissions, unfiltered gas heaters, cookers, various industrial activities
+    </string>
+    <string name="no2_shor_term_1">
+        Irritation to lungs
+    </string>
+    <string name="no2_shor_term_2">
+        Reduce resistance to respiratory inflection
+    </string>
+    <string name="no2_long_term_1">
+       Development of asthma and increased risk to experience more frequent and intense asthma attacks
+    </string>
+    <string name="no2_long_term_2">
+        Lung tissue damage
+    </string>
+    <string name="no2_long_term_3">
+        Premature death
+    </string>
+
+    <!-- SO2-->
+    <string name="so2">Sulphur dioxide</string>
+    <string name="so2_desc">
+        SO2 is colourless gas. It belongs to a group of highly reactive gasses known as the "oxides of sulphur".
+        They easily react together to form harmful compounds such as sulphuric acid, and sulphate particles.
+    </string>
+    <string name="so2_cause_1">
+        Industrial activity that uses materials containing sulphur to generate electricity
+    </string>
+    <string name="so2_cause_2">
+        Motor vehicles as a result of fuel combustion
+    </string>
+    <string name="so2_shor_term_1">
+        Wheezing
+    </string>
+    <string name="so2_shor_term_2">
+        Chest tightness
+    </string>
+    <string name="so2_shor_term_3">
+        Shortness of breath
+    </string>
+    <string name="so2_long_term_1">
+        Respiratory illness
+    </string>
+    <string name="so2_long_term_2">
+        Alterations in the lungs defences
+    </string>
+    <string name="so2_long_term_3">
+        increased cardiovascular disease
+    </string>
+
+    <!-- CO-->
+    <string name="co">Carbon Monoxide</string>
+    <string name="co_desc">
+        CO known as silent killer, is an odourless, colourless gas.
+        CO reaches dangerous levels when a gas appliance has been incorrectly fitted, badly repaired or poorly maintained, or when flues, chimneys or vents are blocked - thus prohibiting airflow.
+    </string>
+    <string name="co_cause_1">
+        Improper operation or poor ventilation of appliances that burn fossil fuels. Sources include fires, fireplaces and stoves,combustion from motor vehicles and power plants.
+    </string>
+
+    <string name="co_shor_term_1">
+       Oxygen deprivation, headaches, dizziness, drowsiness, weakness
+    </string>
+    <string name="co_shor_term_2">
+        Upset stomach, vomiting
+    </string>
+    <string name="co_shor_term_3">
+        Chest pain
+    </string>
+    <string name="co_long_term_1">
+       Inhalation prevents blood cells from carrying oxygen
+    </string>
+    <string name="title_activity_attribution">AttributionActivity</string>
+
+<!--    Health recommendation-->
+    <string name="cycling_1">Everyone should reduce outdoor exercise</string>
+    <string name="window_1">Close your windows to avoid outdoor air</string>
+    <string name="mask">Sensitive groups should wear a mask outdoors</string>
+    <string name="air_purifier">Run an air purifier</string>
+    <string name="no_data_available">No Data available</string>
+</resources>

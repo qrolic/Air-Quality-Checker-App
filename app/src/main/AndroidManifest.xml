@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qrolic.blueair">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".hiltContainer.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BlueAir">
+        <activity
+            android:name=".activity.AttributionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_attribution"
+            android:theme="@style/Theme.BlueAir" />
+        <activity
+            android:name=".activity.PollutantDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pollutant_detail"
+            android:theme="@style/Theme.BlueAir" />
+        <activity
+            android:name=".activity.AirGuideActivity"
+            android:exported="false"
+            android:label="@string/title_activity_air_guide"
+            android:theme="@style/Theme.BlueAir" />
+        <activity
+            android:name=".activity.AirDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_air_detail"
+            android:theme="@style/Theme.BlueAir" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:exported="false"
+            android:label="@string/title_activity_search"
+            android:theme="@style/Search" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.BlueAir" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/StatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA1MFR0Bdjay0402ELLknYIy-sLB0ib7j8" />
+    </application>
+
+</manifest>

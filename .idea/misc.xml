@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1651310456362.xml" value="0.17222222222222222" />
+        <entry key="../../../../layout/compose-model-1651312756777.xml" value="0.9" />
+        <entry key="../../../../layout/compose-model-1651318117708.xml" value="0.16765202702702703" />
+        <entry key="../../../../layout/compose-model-1651481722600.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1651490322162.xml" value="0.17222222222222222" />
+        <entry key="../../../../layout/compose-model-1651651080513.xml" value="0.17222222222222222" />
+        <entry key="../../../../layout/compose-model-1651651714418.xml" value="0.16765202702702703" />
+        <entry key="../../../../layout/compose-model-1651662213538.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1651837601910.xml" value="0.13386824324324326" />
+        <entry key="../../../../layout/compose-model-1651905681352.xml" value="0.16765202702702703" />
+        <entry key="../../../../layout/compose-model-1652093758982.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1652098914331.xml" value="0.16765202702702703" />
+        <entry key="app/src/main/res/drawable/chart_gradient.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/green_location.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/green_marker.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/marker.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/orange_location.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/orange_marker.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/pink_location.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/pink_marker.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/red_location.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/red_marker.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/violate_location.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/violate_marker.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/yellow_locatio.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/yellow_marker.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
