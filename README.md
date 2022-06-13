@@ -27,6 +27,7 @@ Blue Air is air quality checker app which is implemented in kotlin and Jetpack C
 * Display all information about city
 * Air Quality Chart (powered by __[PhilJay MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)__ )
 * Display all aqi data to Google maps
+* Search by city name
 * Automatic night mode (apply dark theme automatically)
 
 ## Key Settings
