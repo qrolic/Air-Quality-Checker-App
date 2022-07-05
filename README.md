@@ -22,7 +22,7 @@ Blue Air is air quality checker app which is implemented in kotlin and Jetpack C
 
 ## Preview Apk
 
-* __[Download now](https://drive.google.com/file/d/1sCmBU6oa-vfq-YUAX3oGkMZ9Hy5Bz0l4/view?usp=sharing)__
+* __[Download now](https://drive.google.com/file/d/1Md0d11_3Ia0yUKm_RDYeaJVyklC1K5M0/view?usp=sharing)__
 
 ## Functionality
 
