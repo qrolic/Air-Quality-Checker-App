@@ -1,6 +1,9 @@
 package com.qrolic.blueair.viewmodel
 
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.qrolic.blueair.model.home.HomeModel
@@ -25,6 +28,7 @@ class HomeViewModel @Inject constructor(private val homeRepository: HomeReposito
     var message = MutableLiveData<String>()
     var homeModel = MutableLiveData<HomeModel>()
     var mapModelList = MutableLiveData<List<MapModel>>()
+    var isMapLoading =  mutableStateOf(true)
 
     init{
         geoLocationIpBased()
