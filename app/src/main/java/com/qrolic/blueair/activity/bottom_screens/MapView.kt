@@ -55,26 +55,27 @@ fun MapView(
     viewModel: HomeViewModel
 ) {
     val map = rememberMapViewWithLifecycle()
-    // global lat long range
-    viewModel.getMapList("-85,-180,85,180")
+    // AndroidView() is a Composable that can be used to add Android Views
     val mapList = viewModel.mapModelList.observeAsState(emptyList())
     val context = LocalContext.current
-    var isMapLoading by remember { mutableStateOf(true) }
 
     LaunchedEffect(map) {
         delay(1000)
-        isMapLoading = false
+        viewModel.isMapLoading.value = false
     }
 
     Box {
+        // used to add android view
         AndroidView(
             { map },
             modifier = Modifier
                 .fillMaxSize()
         ) { mapView ->
-            // I think this is slowing the performance of map view loading needs checking !!
             CoroutineScope(Dispatchers.Main).launch {
                 mapView.getMapAsync {
+                    viewModel.getMapList("-85,-180,85,180")
+                    // india
+                    // viewModel.getMapList("8.4,68.7,37.6,97.25")
                     mapList.value.forEach { mapModel: MapModel ->
                         val location = LatLng(mapModel.lat ?: 0.0, mapModel.lon ?: 0.0)
                         var aqi = 0
@@ -91,22 +92,19 @@ fun MapView(
                                 "$aqi Aqi"
                             )
                         )
-                        it.moveCamera(CameraUpdateFactory.newLatLng(location))
                     }
                 }
             }
         }
-
-        if (isMapLoading) {
-            Box(
-                contentAlignment = Alignment.Center,
-                modifier = Modifier
-                    .fillMaxSize()
-            ) {
-                CircularProgressIndicator()
-            }
+    }
+    if (viewModel.isMapLoading.value) {
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier
+                .fillMaxSize()
+        ) {
+            CircularProgressIndicator()
         }
-
     }
 
 
